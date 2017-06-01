@@ -1,0 +1,81 @@
+[16-Sep-2016 07:37:26 CST6CDT] PHP Parse error:  syntax error, unexpected 'mysql_query' (T_STRING), expecting '{' in /home/digivers/public_html/econtact/digi-platform/functions.php on line 29
+[16-Sep-2016 07:38:31 CST6CDT] PHP Parse error:  syntax error, unexpected '$connect' (T_VARIABLE), expecting '{' in /home/digivers/public_html/econtact/digi-platform/functions.php on line 28
+[16-Sep-2016 07:39:20 CST6CDT] PHP Parse error:  syntax error, unexpected '$connect' (T_VARIABLE), expecting '{' in /home/digivers/public_html/econtact/digi-platform/functions.php on line 28
+[16-Sep-2016 07:39:47 CST6CDT] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/digivers/public_html/econtact/digi-platform/functions.php on line 4
+[16-Sep-2016 07:51:21 CST6CDT] PHP Notice:  Undefined index: inputfirstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 10
+[16-Sep-2016 07:51:21 CST6CDT] PHP Notice:  Undefined index: firstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 25
+[16-Sep-2016 07:51:21 CST6CDT] PHP Notice:  Undefined index: inputlastname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 26
+[16-Sep-2016 07:51:21 CST6CDT] PHP Notice:  Undefined index: website in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 27
+[16-Sep-2016 07:51:21 CST6CDT] PHP Notice:  Undefined index: body in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 28
+[16-Sep-2016 07:51:21 CST6CDT] PHP Notice:  Undefined index: parentid in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 29
+[16-Sep-2016 07:52:30 CST6CDT] PHP Parse error:  syntax error, unexpected ',' in /home/digivers/public_html/econtact/digi-platform/functions.php on line 6
+[16-Sep-2016 07:53:01 CST6CDT] PHP Parse error:  syntax error, unexpected ',' in /home/digivers/public_html/econtact/digi-platform/functions.php on line 6
+[16-Sep-2016 07:53:30 CST6CDT] PHP Notice:  Undefined index: inputfirstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 10
+[16-Sep-2016 07:53:30 CST6CDT] PHP Notice:  Undefined index: firstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 25
+[16-Sep-2016 07:53:30 CST6CDT] PHP Notice:  Undefined index: inputlastname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 26
+[16-Sep-2016 07:53:30 CST6CDT] PHP Notice:  Undefined index: website in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 27
+[16-Sep-2016 07:53:30 CST6CDT] PHP Notice:  Undefined index: body in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 28
+[16-Sep-2016 07:53:30 CST6CDT] PHP Notice:  Undefined index: parentid in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 29
+[16-Sep-2016 07:54:04 CST6CDT] PHP Notice:  Undefined index: inputfirstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 10
+[16-Sep-2016 07:54:04 CST6CDT] PHP Notice:  Undefined index: firstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 25
+[16-Sep-2016 07:54:04 CST6CDT] PHP Notice:  Undefined index: inputlastname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 26
+[16-Sep-2016 07:54:04 CST6CDT] PHP Notice:  Undefined index: website in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 27
+[16-Sep-2016 07:54:04 CST6CDT] PHP Notice:  Undefined index: body in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 28
+[16-Sep-2016 07:54:04 CST6CDT] PHP Notice:  Undefined index: parentid in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 29
+[16-Sep-2016 07:54:12 CST6CDT] PHP Notice:  Undefined index: inputfirstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 10
+[16-Sep-2016 07:54:12 CST6CDT] PHP Notice:  Undefined index: firstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 25
+[16-Sep-2016 07:54:12 CST6CDT] PHP Notice:  Undefined index: inputlastname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 26
+[16-Sep-2016 07:54:12 CST6CDT] PHP Notice:  Undefined index: website in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 27
+[16-Sep-2016 07:54:12 CST6CDT] PHP Notice:  Undefined index: body in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 28
+[16-Sep-2016 07:54:12 CST6CDT] PHP Notice:  Undefined index: parentid in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 29
+[16-Sep-2016 07:56:03 CST6CDT] PHP Notice:  Undefined index: inputfirstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 10
+[16-Sep-2016 07:56:03 CST6CDT] PHP Notice:  Undefined index: firstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 25
+[16-Sep-2016 07:56:03 CST6CDT] PHP Notice:  Undefined index: inputlastname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 26
+[16-Sep-2016 07:56:03 CST6CDT] PHP Notice:  Undefined index: website in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 27
+[16-Sep-2016 07:56:03 CST6CDT] PHP Notice:  Undefined index: body in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 28
+[16-Sep-2016 07:56:03 CST6CDT] PHP Notice:  Undefined index: parentid in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 29
+[16-Sep-2016 07:57:27 CST6CDT] PHP Notice:  Undefined index: inputfirstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 10
+[16-Sep-2016 07:57:27 CST6CDT] PHP Notice:  Undefined index: firstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 25
+[16-Sep-2016 07:57:27 CST6CDT] PHP Notice:  Undefined index: inputlastname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 26
+[16-Sep-2016 07:57:27 CST6CDT] PHP Notice:  Undefined index: website in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 27
+[16-Sep-2016 07:57:27 CST6CDT] PHP Notice:  Undefined index: body in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 28
+[16-Sep-2016 07:57:27 CST6CDT] PHP Notice:  Undefined index: parentid in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 29
+[16-Sep-2016 08:02:04 CST6CDT] PHP Notice:  Undefined index: inputmobile in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 13
+[16-Sep-2016 08:02:04 CST6CDT] PHP Notice:  Undefined index: firstname in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 25
+[16-Sep-2016 08:02:04 CST6CDT] PHP Notice:  Undefined index: website in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 27
+[16-Sep-2016 08:02:04 CST6CDT] PHP Notice:  Undefined index: body in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 28
+[16-Sep-2016 08:02:04 CST6CDT] PHP Notice:  Undefined index: parentid in /home/digivers/public_html/econtact/digi-platform/postProf.php on line 29
+[16-Sep-2016 08:21:07 CST6CDT] PHP Parse error:  syntax error, unexpected '$row_cnt' (T_VARIABLE) in /home/digivers/public_html/econtact/digi-platform/functions.php on line 30
+[16-Sep-2016 08:21:31 CST6CDT] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/digivers/public_html/econtact/digi-platform/functions.php on line 22
+[16-Sep-2016 08:21:31 CST6CDT] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/digivers/public_html/econtact/digi-platform/functions.php on line 23
+[16-Sep-2016 08:48:00 CST6CDT] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/digivers/public_html/econtact/digi-platform/dashboard.php:9) in /home/digivers/public_html/econtact/digi-platform/dashboard.php on line 15
+[03-Nov-2016 06:44:23 CST6CDT] PHP Fatal error:  Call to undefined function retrieveCategoryLevel1() in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 159
+[03-Nov-2016 06:45:10 CST6CDT] PHP Fatal error:  Call to undefined function retrieveCategoryLevel1() in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 159
+[03-Nov-2016 06:45:12 CST6CDT] PHP Fatal error:  Call to undefined function retrieveCategoryLevel1() in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 159
+[03-Nov-2016 06:46:01 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 14
+[03-Nov-2016 06:46:01 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 14
+[03-Nov-2016 06:46:01 CST6CDT] PHP Fatal error:  Call to undefined function retrieveCategoryLevel1() in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 159
+[03-Nov-2016 06:52:04 CST6CDT] PHP Fatal error:  Call to undefined function retrieveCategoryLevel2() in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 06:52:31 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 06:52:31 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 06:53:26 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 06:53:26 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 06:54:52 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 06:54:52 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:01:41 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:01:41 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:02:32 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:02:32 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:03:13 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:03:13 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:05:27 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:05:27 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:06:19 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:06:19 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:07:29 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:07:29 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:08:24 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:08:24 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:08:32 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173
+[03-Nov-2016 07:08:32 CST6CDT] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 174
+[03-Nov-2016 07:09:32 CST6CDT] PHP Notice:  Undefined variable: level1 in /home/digivers/public_html/econtact/digi-platform/insProf.php on line 173

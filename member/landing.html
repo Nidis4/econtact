@@ -1,0 +1,160 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+session_start();
+include 'mainfunctions.php';
+?>
+<!DOCTYPE html>
+<html lang="el">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>e-contact.gr</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/econtact.css?version=7" rel="stylesheet">
+    <link href="css/carousel.css?version=4" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+<!--  <div class="logo">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
+  </div>-->
+
+   
+   <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="row image-head landing">
+  
+    </div>
+
+    <div class="container ">
+
+      <div class="row">
+        <div class="col-md-6">
+         <h2 class="title">
+          <img src="images/logo.png" width=200px />
+         </h2>
+         <div class="row ">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+
+      </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row">
+            <h2 class="title">Δηλώστε συμμετοχή </h2>
+          </div>
+          <form class="form-horizontal" id="formProfessional" method="post" enctype="multipart/form-data" action="postContact.php">
+              <div class="form-group">
+                <label for="inputfirstname" class="col-sm-3 control-label">Όνομα *</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputfirstname" name="inputfirstname" placeholder="Ονοματεπώνυμο">
+                </div>
+              </div>
+               <div class="form-group">
+                <label for="inputfirstname" class="col-sm-3 control-label">Επώνυμο *</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputfirstname" name="inputfirstname" placeholder="Ονοματεπώνυμο">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputfirstname" class="col-sm-3 control-label">Τηλέφωνο *</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputfirstname" name="inputfirstname" placeholder="Ονοματεπώνυμο">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputemail" class="col-sm-3 control-label">E-mail*</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" id="inputemail" name="inputemail" placeholder="E-mail">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-9">
+                  <button type="submit" class="btn btn-default" id="btn_submit">Αποστολή</button>
+                </div>
+              </div>
+            </form>
+        </div>
+        
+      </div>
+      
+
+      <!-- Three columns of text below the carousel -->
+      
+      
+      
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Θες να βρίσκεσαι εκεί που θα σε ψάξουν; <span class="text-muted">Μπες στο e-contact.gr</span></h2>
+          <p class="lead">Δηλώστε συμμετοχή και κάποιος συνεργάτης θα επικοινωνήσει άμεσα μαζί σας!</p>
+          <div class="row">
+            
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/services.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 e-contact.gr, Inc. &middot; <a href="#">Πολιτική απορρήτου</a> &middot; <a href="#">Όροι χρήσης</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/econtact.js?version=6"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

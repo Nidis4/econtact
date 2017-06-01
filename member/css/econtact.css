@@ -1,0 +1,86 @@
+body {
+    background-color: #ededed;
+    color: #0f303f;
+    padding-bottom: 40px;
+}
+.image-head {
+    background: rgba(0, 0, 0, 0) url("../images/map.jpg") repeat scroll center bottom;
+    height: 310px;
+}
+.image-head.company {
+    background: rgba(0, 0, 0, 0) url("../images/meeting-room.jpg") repeat scroll center center;
+    height: 400px;
+}
+.image-head.landing {
+    background: rgba(0, 0, 0, 0) url("../images/top.jpg") repeat scroll center center;
+    height: 400px;
+}
+.contact .image-head {
+    background: rgba(0, 0, 0, 0) url("../images/contact.jpg") repeat scroll center bottom;
+    height: 310px;
+}
+.signup .image-head {
+    background: rgba(0, 0, 0, 0) url("../images/signup.jpg") repeat scroll center bottom;
+    height: 310px;
+}
+hr {
+    border-color: #0f303f;
+}
+#map {
+    height: 600px;
+}
+#state {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 7px;
+}
+
+h2.title {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.row.stateselect {
+    padding: 15px;
+    text-align: center;
+}
+select#state {
+    min-width: 200px;
+    padding: 10px;
+}
+
+.logo .navbar-brand {
+    font-size: 18px;
+    height: 50px;
+    line-height: 20px;
+    padding: 15px;
+    text-align: center;
+    float: none;
+}
+.navbar-brand > img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    text-align: center;
+    width: 230px;
+}
+
+.h1, h1 {
+    text-shadow: 1px 2px black;
+}
+
+.carousel-caption p {
+    text-shadow: 1px 1px black;
+}
+.img-options {
+    text-align: center;
+}
+.img-options img {
+    max-width: 150px;
+}
+.h4, h4 {
+    text-align: center;
+}
+.profile #map {
+    height: 400px;
+}

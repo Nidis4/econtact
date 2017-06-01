@@ -1,0 +1,27 @@
+[23-Sep-2016 05:15:23 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[23-Sep-2016 05:15:23 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[23-Sep-2016 05:15:23 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[25-Sep-2016 13:39:52 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[25-Sep-2016 13:39:52 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[25-Sep-2016 13:39:52 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[25-Sep-2016 13:40:08 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[25-Sep-2016 13:40:08 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[25-Sep-2016 13:40:08 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[25-Sep-2016 13:46:48 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[25-Sep-2016 13:46:48 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[25-Sep-2016 13:46:48 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[27-Sep-2016 12:17:26 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[27-Sep-2016 12:17:26 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[27-Sep-2016 12:17:26 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[27-Sep-2016 12:25:29 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[27-Sep-2016 12:25:29 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[27-Sep-2016 12:25:29 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[27-Sep-2016 14:40:14 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[27-Sep-2016 14:40:14 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[27-Sep-2016 14:40:14 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[07-Oct-2016 11:16:38 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[07-Oct-2016 11:16:38 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[07-Oct-2016 11:16:38 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
+[31-Oct-2016 08:16:16 CST6CDT] PHP Warning:  include(../functions.php): failed to open stream: No such file or directory in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[31-Oct-2016 08:16:16 CST6CDT] PHP Warning:  include(): Failed opening '../functions.php' for inclusion (include_path='.:/usr/local/php56/pear') in /home/digivers/public_html/econtact/professional/profile.php on line 15
+[31-Oct-2016 08:16:16 CST6CDT] PHP Fatal error:  Call to undefined function retrieveAllProfessionals() in /home/digivers/public_html/econtact/professional/profile.php on line 112
