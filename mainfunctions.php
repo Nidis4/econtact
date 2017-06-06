@@ -48,11 +48,26 @@
 	  	$query = "SELECT * FROM `CATEGORIES` WHERE `CAT_LEVEL1`='".$category."'";
 	  	//echo $query;
 
-	  	$result = mysqli_query($conn,"SELECT * FROM `CATEGORIES` WHERE CAT_LEVEL1='".$category."'");
+	  	$result = mysqli_query($conn,"SELECT * FROM `CATEGORIES` WHERE `CAT_LEVEL1`='".$category."' AND `DISPLAY`=1 ORDER BY `CAT_LEVEL2`");
 	  	//$row_cnt = mysqli_num_rows($result);
 
 	  	//echo $row_cnt;
 	  	return $result; 
+	  	//echo "INSERT INTO `PROFESSIONALS`(`FIRSTNAME`, `LASTNAME`, `EMAIL`, `MOBILE`, `TELEPHONE`, `ADDRESS`, `ADDRESS1`, `ADDRESS2`, `SPECIALIZATION`, `AVAILABLE`, `NOTES`, `REGISTRATION`) VALUES ('$name', '$surname','$email','$mob','$tel','$address','$address1','$address2','$spec','$avail','$notes',now())";
+	  	//echo "End";
+	  }
+	  function getCategoryImage($cat){
+	  	$conn = initDB();
+
+	  	//echo "in function: ".$category;
+	  	$query = "SELECT `IMAGE_NAME` FROM `CATEGORIES` WHERE `CATEGORY_ID`='".$cat."'";
+	  	//echo $query;
+
+	  	$result = mysqli_query($conn,"SELECT `IMAGE_NAME` FROM `CATEGORIES` WHERE `CATEGORY_ID`='".$cat."'");
+	  	//$row_cnt = mysqli_num_rows($result);
+	  	$row = mysqli_fetch_row($result);
+	  	//echo $row_cnt;
+	  	return $row[0];
 	  	//echo "INSERT INTO `PROFESSIONALS`(`FIRSTNAME`, `LASTNAME`, `EMAIL`, `MOBILE`, `TELEPHONE`, `ADDRESS`, `ADDRESS1`, `ADDRESS2`, `SPECIALIZATION`, `AVAILABLE`, `NOTES`, `REGISTRATION`) VALUES ('$name', '$surname','$email','$mob','$tel','$address','$address1','$address2','$spec','$avail','$notes',now())";
 	  	//echo "End";
 	  }

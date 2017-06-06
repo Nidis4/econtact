@@ -67,14 +67,14 @@ session_start();
          <div class="row ">
             <ul>
               <li>Κάποιος εξειδικευμένος συνεργάτης θα επικοινωνήσει σύντομα μαζί σας.</li>
-              <li>Στο μεταξύ άν θέλετε δώστε μας κάποιες ακόμα πληροφορίες για την καλύτερη εξυπηρέτηση σας.</li>
+              <li>Κατεβάστε τον Δωρεάν Οδηγό</li>
             </ul>
       </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6" style="margin-top:80px; text-align:center">
           <br><br>
-          <form class="form-horizontal" id="formProfessional" method="post" enctype="multipart/form-data">
+          
           <?php
   $first ="";  
   if (isset($_POST['inputemail'])){
@@ -97,51 +97,9 @@ session_start();
     
 
 //var_dump($response)
-  } else if (isset($_POST['inputtel'])){
-    $tel = $_POST['inputtel'];
-    $city = $_POST['inputcity'];
-    $prof = $_POST['inputprof'];
-    $firstname = $_POST['inputfirstname'];
-
-    $topic = "Συνέχεια Αίτησης συμμετοχής";
-       
-    $mess = "Νέα Αίτηση (2) \n \n Όνομα: $firstname \n Τηλέφωνο: $tel \n Επάγγελμα: $prof \n Πόλη: $city \n " ;
-    $to = "gkonstantinidis@digiverse.gr";
-    $subject = $topic;
-    //$message = "Job has successfully been terminated\n\nPlease find your results attached.";
-    //$headers = "";
-    $headerFields = array('MIME-Version: 1.0', 'Content-Type: text/plain;charset=utf-8');
-   
-    $mail_sent = @mail( $to, $subject, $mess,implode("\r\n", $headerFields));
-     echo $mail_sent ? "<div style='margin: 20px auto 0px; font-size: 17px; color: green; text-align: center;'>Eυχαριστούμε για την αίτηση! Θα επικοινωνήσουμε μαζί σας σύντομα</div>" : "Ξαναπροσπαθήστε παρακαλώ γιατί το μήνυμα δεν εστάλη";
-  }
-  
+  } 
   ?>
-              <div class="form-group">
-                <label for="inputtel" class="col-sm-3 control-label">Τηλέφωνο *</label>
-                <div class="col-sm-9">
-                  <input type="tel" class="form-control" id="inputtel" name="inputtel" placeholder="Τηλέφωνο" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputprof" class="col-sm-3 control-label">Επάγγελμα *</label>
-                <div class="col-sm-9">
-                  <input type="text" class="form-control" id="inputprof" name="inputprof" placeholder="Επάγγελμα" >
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputcity" class="col-sm-3 control-label">Πόλη *</label>
-                <div class="col-sm-9">
-                  <input type="text" class="form-control" id="inputcity" name="inputcity" placeholder="Πόλη" >
-                  <input type="hidden" class="form-control" id="inputfirstname" name="inputfirstname" value="<?php echo $_POST['inputfirstname']?>">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="col-sm-offset-3 col-sm-9">
-                  <button type="submit" class="btn btn-default" id="btn_submit">Αποστολή</button>
-                </div>
-              </div>
-            </form>
+              <a href="dorean-odigos-facebook.pdf" target="_blank" class="btn btn-default btn-primary"> Download NOW</a>
         </div> 
       </div>
       

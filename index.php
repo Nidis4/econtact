@@ -110,7 +110,7 @@ include 'mainfunctions.php';
       <div class="row">
         <div class="col-md-4">
           <div class="img-options">
-            <a href="company.php"><img src="images/mission_serv.png" /></a>
+            <a href="http://gpoulimenakos.e-contact.gr "><img src="images/mission_serv.png" /></a>
           </div>
           <h4>Εταιρία</h4>
         </div>
@@ -146,47 +146,59 @@ include 'mainfunctions.php';
       
       <div class="row">
         <div class="col-md-3 beauty">
+        <a href="#secService">
           <img class="img-circle" src="images/beauty.png" alt="Ομορφιά" width="140" height="140">
           <h3>Ομορφιά</h3>
           <!--<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
+          </a>
         </div><!-- /.col-lg-4 -->
         <div class="col-md-3 construction" >
+        <a href="#secService">
           <img class="img-circle" src="images/construction.png" alt="Construction" width="140" height="140" >
           <h3>Τεχνίτες</h3>
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
+          </a>
         </div><!-- /.col-lg-4 -->
         <div class="col-md-3 entertainment">
+        <a href="#secService">
           <img class="img-circle" src="images/entertainment.png" alt="Generic placeholder image" width="140" height="140" >
           <h3>Διασκέδαση</h3>
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
         </div><!-- /.col-lg-4 -->
         <div class="col-md-3 freelancer">
+        <a href="#secService">
           <img class="img-circle" src="images/free_lancer.png" alt="Generic placeholder image" width="140" height="140" >
           <h3>Freelancer</h3>
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
         </div><!-- /.col-lg-4 -->
       </div>
       <div class="row">
         <div class="col-md-3 houseneeds">
+        <a href="#secService">
           <img class="img-circle" src="images/house_needs.png" alt="Generic placeholder image" width="140" height="140">
           <h3>Οικογενειακές Ανάγκες</h3>
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
         </div><!-- /.col-lg-4 -->
         <div class="col-md-3 study">
+        <a href="#secService">
           <img class="img-circle" src="images/study.png" alt="Generic placeholder image" width="140" height="140" >
           <h3>Διδασκαλία</h3>
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
         </div><!-- /.col-lg-4 -->
         <div class="col-md-3 technology">
+        <a href="#secService">
           <img class="img-circle" src="images/technology.png" alt="Generic placeholder image" width="140" height="140" >
           <h3>Τεχνολογία</h3>
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
+          </a>
         </div><!-- /.col-lg-4 -->
         <div class="col-md-3 doctor">
+        <a href="#secService">
           <img class="img-circle" src="images/medical.png" alt="Generic placeholder image" width="140" height="140" >
           <h3>Γιατροί</h3>
-          <p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>
+          <!--<p><a class="btn btn-default" href="#secService" role="button">View  &raquo;</a></p>-->
+          </a>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 

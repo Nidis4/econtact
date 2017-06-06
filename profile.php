@@ -83,10 +83,10 @@ else{
             <h6><strong>Ειδικότητα: </strong><?php echo $spec; ?></h6> 
           </div>
           <div class="row">
-            <h6><strong>Τηλέφωνο: </strong><?php echo $telephone; ?></h6> 
+            <h6><strong>Κύριο Τηλέφωνο: </strong><?php echo $telephone; ?></h6> 
           </div>
           <div class="row">
-            <h6><strong>Κινητό: </strong><?php echo $mobile; ?></h6> 
+            <h6><strong>Δευτερεύον Τηλέφωνο: </strong><?php echo $mobile; ?></h6> 
           </div>
           <div class="row">
             <h6><strong>E-mail: </strong><?php echo $email; ?></h6>
@@ -171,7 +171,7 @@ else{
       // Info Window Content
     var infoWindowContent = [
         <?php
-              echo "[\"<div class='info_content'><h3>$firstname</h3></div>\"],";
+              echo "[\"<div class='info_content'><h3>$firstname</h3> <a href='https://www.google.gr/maps/dir//$lati,$long/@$lati,$long,15z' target='_blank'>Οδηγίες </a></div>\"],";
         ?>
     ];
 

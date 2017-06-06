@@ -31,7 +31,7 @@ session_start();
 
     <!-- Custom styles for this template -->
     <link href="css/econtact.css?version=8" rel="stylesheet">
-    <link href="css/carousel.css?version=9" rel="stylesheet">
+    <link href="css/carousel.css?version=10" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -63,75 +63,39 @@ session_start();
          <h2 class="title">
           <img src="images/logo.png" width=200px />
          </h2>
+         <h4> Είσαι ελεύθερος επαγγελματίας; Έχεις επιχείρηση παροχής υπηρεσιών; Ψάχνεις για μια ΣΤΑΘΕΡΗ και ταυτόχρονα ΤΟΠΙΚΗ πελατεία; Μην χάνεις ΧΡΟΝΟ!!! </h4>
          <div class="row ">
-          Κάθε επαγγελματίας που ενδιαφέρεται να γίνει γνωστός στο ευρύ κοινό μέσω της σελίδας μας, θα υποβάλλει τα απαραίτητα προσωπικά στοιχεία που αναφέρονται παρακάτω. Έτσι θα δημιουργείται ένα προσωπικό προφίλ δωρεάν. Από την άλλη ο εκάστοτε χρήστης θα επιλέγει την επαγγελματική κατηγορία και θα του εμφανίζονται οι κοντινότεροι σχετικοί επαγγελματίες στην περιοχή που αναζητά.   <br><br>
             <ul>
-              <li>Μοναδική Ιστοσελίδα εξεύρεσης επαγγελματιών μέσω χάρτη</li>
-              <li>Αναζήτηση επαγγελματία τοπικά στην περιοχή εργασίας του</li>
-              <li>Ανάπτυξη πελατολογίου στην περιοχή εργασίας του επαγγελματία</li>
+              <li>Μοναδική Ιστοσελίδα εξεύρεσης επαγγελματιών/επιχειρήσεων μέσω χάρτη</li>
+              <li>Αναζήτηση επαγγελματία/επιχείρησης τοπικά στην περιοχή εργασίας του</li>
+              <li>Ανάπτυξη πελατολογίου στην περιοχή εργασίας τους</li>
               <li>Ταχύτερη εξυπηρέτηση πελατών - εκμηδενισμός αποστάσεων</li>
               <li>Φιλοξενία μεγάλου φάσματος επαγγελμάτων</li>
-</ul>
+              <li>Προσωρινά ΔΩΡΕΑΝ εγγραφή!!!</li>
+              <li>Προσωρινά ΔΩΡΕΑΝ Δημιουργία Στατικής μονοσέλιδης Ιστοσελίδας - (Profile Επαγγελματία)!!!</li>
+              <li>Στήριξη με εκαπιδευτικά e-books για προσωπική - επαγγελματική άνοδο σε θέματα πελατολογίου!!!</li>
+            </ul>
       </div>
         </div>
-<?php
-  $send ="";  
-  if (isset($_POST['inputemail'])){
-    $send="yes";
-  }
-  if ($send=="yes"){
-    $firstname = $_POST['inputfirstname'];
-    $lastname = $_POST['inputlastname'];
-    $email = $_POST['inputemail']; 
-    $topic = "Αίτηση συμμετοχής";
-    $phone = $_POST['inputtel'];
-
-    
-   
-      $mess = "Νέα Αίτηση \n \n Όνομα: $firstname \n Επώνυμο: $lastname \n Email: $email \n Τηλέφωνο: $phone " ;
-    $to = "gkonstantinidis@digiverse.gr, info@e-contact.gr";
-    $subject = $topic;
-    //$message = "Job has successfully been terminated\n\nPlease find your results attached.";
-    //$headers = "";
-    $headerFields = array('MIME-Version: 1.0', 'Content-Type: text/plain;charset=utf-8');
-
-    $mail_sent = @mail( $to, $subject, $mess,implode("\r\n", $headerFields));
-    echo $mail_sent ? "<div style='margin: 20px auto 0px; font-size: 17px; color: green; text-align: center;'>Eυχαριστούμε για την αίτηση! Θα επικοινωνήσουμε μαζί σας σύντομα</div>" : "Ξαναπροσπαθήστε παρακαλώ γιατί το μήνυμα δεν εστάλη";
-    
-
-
-
-  }
-  
-  ?>
 
         <div class="col-md-6">
           <div class="row">
-            <h2 class="title">Δηλώστε συμμετοχή </h2>
+            <h2 class="title">Θες να βρίσκεσαι εκεί που θα σε ψάξουν; </h2>
           </div>
-          <form class="form-horizontal" id="formProfessional" method="post" enctype="multipart/form-data">
+          <div class="row">
+            <h4 class="title">Δήλωσε συμμετοχή ΤΩΡΑ και σου δίνουμε έναν ΔΩΡΕΑΝ ΟΔΗΓΟ για το πώς να φτιάξεις μία επιτυχημένη επαγγελματική σελίδα στο Facebook!!!</h4>
+          </div>
+          <form class="form-horizontal" id="formProfessional" method="post" enctype="multipart/form-data" action="thankyou.php">
               <div class="form-group">
                 <label for="inputfirstname" class="col-sm-3 control-label">Όνομα *</label>
                 <div class="col-sm-9">
-                  <input type="text" class="form-control" id="inputfirstname" name="inputfirstname" placeholder="Όνομα" required>
-                </div>
-              </div>
-               <div class="form-group">
-                <label for="inputlastname" class="col-sm-3 control-label">Επώνυμο *</label>
-                <div class="col-sm-9">
-                  <input type="text" class="form-control" id="inputlastname" name="inputlastname" placeholder="Επώνυμο" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="inputtel" class="col-sm-3 control-label">Τηλέφωνο *</label>
-                <div class="col-sm-9">
-                  <input type="text" class="form-control" id="inputtel" name="inputtel" placeholder="Τηλέφωνο" required>
+                  <input type="text" class="form-control" id="inputfirstname" name="inputfirstname" placeholder="Όνοματεπώνυμο" required>
                 </div>
               </div>
               <div class="form-group">
                 <label for="inputemail" class="col-sm-3 control-label">E-mail*</label>
                 <div class="col-sm-9">
-                  <input type="text" class="form-control" id="inputemail" name="inputemail" placeholder="E-mail" required>
+                  <input type="email" class="form-control" id="inputemail" name="inputemail" placeholder="E-mail" required>
                 </div>
               </div>
               <div class="form-group">
@@ -140,8 +104,7 @@ session_start();
                 </div>
               </div>
             </form>
-        </div>
-        
+        </div> 
       </div>
       
 
@@ -158,7 +121,7 @@ session_start();
           <h2 class="featurette-heading" style="margin-top: 40px;">Θες να βρίσκεσαι εκεί που θα σε ψάξουν; <span class="text-muted">Μπες στο e-contact.gr</span></h2>
           <p class="lead">Δηλώστε συμμετοχή και κάποιος συνεργάτης θα επικοινωνήσει άμεσα μαζί σας!</p>
           <div class="row" style="text-align: center;">
-            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fecontactgr%2F&tabs=timeline&width=340&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=236621306414844" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            <!--<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fecontactgr%2F&tabs=timeline&width=340&height=250&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=236621306414844" width="340" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>-->
           </div>
         </div>
         <div class="col-md-5">

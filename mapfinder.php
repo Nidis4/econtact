@@ -6,6 +6,7 @@ session_start();
 include 'mainfunctions.php';
 if ( isset( $_GET['cat'] ) && !empty( $_GET['cat'] ) ){
   $cat = $_GET['cat'];
+  $imgURL = getCategoryImage($cat);
 }
 else{
   $cat=0;
@@ -56,8 +57,9 @@ else{
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="row image-head">
-  
+    <div class="row" style="text-align: center; margin-bottom:30px">
+      <img src="images/categories/<?php echo $imgURL;?>.png" />
+        
     </div>
     
     <div class="container maps">

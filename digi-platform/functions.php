@@ -44,7 +44,7 @@
 	  function updateProfessional($name, $surname, $email, $mob, $tel, $address, $address1, $address2, $spec, $avail, $notes){
 	  	$conn = initDB();
 	  	//echo "in function"
-	  	mysqli_query($conn,"UPDATE `PROFESSIONALS` SET `FIRSTNAME`='$name',`LASTNAME`='$surname',`MOBILE`='$mob',`TELEPHONE`='$tel',`ADDRESS`='$address',`ADDRESS1`='$address1',`ADDRESS2`='$address2',`SPECIALIZATION`='$spec',`AVAILABLE`='$avail',`NOTES`='$notes' WHERE `EMAIL`='$email' ");
+	  	mysqli_query($conn,"UPDATE `PROFESSIONALS` SET `FIRSTNAME`='$name',`LASTNAME`='$surname',`MOBILE`='$mob',`TELEPHONE`='$tel',`ADDRESS`='$address',`ADDRESS1`='$address1',`ADDRESS2`='$address2',`SPECIALIZATION`=\"$spec\",`AVAILABLE`='$avail',`NOTES`=\"$notes\" WHERE `EMAIL`='$email' ");
 	  	//echo "INSERT INTO `PROFESSIONALS`(`FIRSTNAME`, `LASTNAME`, `EMAIL`, `MOBILE`, `TELEPHONE`, `ADDRESS`, `ADDRESS1`, `ADDRESS2`, `SPECIALIZATION`, `AVAILABLE`, `NOTES`, `REGISTRATION`) VALUES ('$name', '$surname','$email','$mob','$tel','$address','$address1','$address2','$spec','$avail','$notes',now())";
 	  	//echo "End";
 	  }
